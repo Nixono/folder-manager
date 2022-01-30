@@ -2,8 +2,8 @@ const { app, BrowserWindow, dialog, ipcMain } = require('electron');
 const isDev = require('electron-is-dev');
 const path = require('path');
 
-const FileManager = require('../src/FileManager');
-const { pathResolver } = require('../src/utils.js');
+const FileManager = require('../src/fileManager/FileManager');
+const { pathResolver } = require('../src/fileManager/utils/utils.js');
 
 let folder = undefined;
 

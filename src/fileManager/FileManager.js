@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const rules = require('./config/default-rules.js');
 
-const _File = require('./actions/File.js')
+const _File = require('./File.js')
 
 class FileManager {
 
